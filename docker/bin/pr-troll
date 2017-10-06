@@ -1,3 +1,3 @@
 #!/bin/bash
 git log --pretty=oneline
-exit 1
+exit 0
