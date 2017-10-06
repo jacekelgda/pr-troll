@@ -1,2 +1,3 @@
 #!/bin/bash
-echo I am a PR TROLL AND I WILL TROLL YOUR PR!!
+git log --pretty=oneline
+exit 1
