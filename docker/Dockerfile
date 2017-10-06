@@ -1,3 +1,4 @@
 FROM circleci/node:7.10
-ENTRYPOINT ["git", "log"]
+WORKDIR /home/circleci
+ADD test.sh test.sh
 CMD ["-c"]

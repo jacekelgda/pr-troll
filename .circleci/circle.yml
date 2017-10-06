@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:7.10
+    working_directory: ~/my-app
+    steps:
+      - checkout
+      - run: pwd
+      - run: ls -ali
