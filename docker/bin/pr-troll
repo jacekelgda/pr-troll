@@ -1,3 +1,4 @@
 #!/bin/bash
 git log --pretty=oneline
+#exit 1 for fail and exit 0 for pass - this is going to be the main thing in here
 exit 0
