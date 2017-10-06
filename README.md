@@ -1,2 +1,2 @@
-# pr-troll
+# pr-trol
 The troll that will challenge your PR
