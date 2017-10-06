@@ -2,9 +2,11 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:7.10
+      - image: jacekelgda/pr-troll:123asd123asd123
     working_directory: ~/my-app
     steps:
       - checkout
       - run: pwd
       - run: ls -ali
+      - run: git log
+      - run: pr-troll
