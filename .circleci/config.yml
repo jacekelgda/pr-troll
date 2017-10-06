@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: jacekelgda/pr-troll:123asd123asd123
+      - image: jacekelgda/pr-troll:123asd123asd124
     working_directory: ~/my-app
     steps:
       - checkout
