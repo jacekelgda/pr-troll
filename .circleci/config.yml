@@ -6,7 +6,4 @@ jobs:
     working_directory: ~/my-app
     steps:
       - checkout
-      - run: pwd
-      - run: ls -ali
-      - run: git log
       - run: pr-troll
